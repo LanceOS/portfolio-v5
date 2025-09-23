@@ -1,11 +1,1 @@
 @import "tailwindcss";
-
-
-main {
-    width: 100dvw;
-    height: 100dvh;
-    background-image: url(/static/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
