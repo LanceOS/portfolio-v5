@@ -1,43 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 @import "tailwindcss";
-
-:root {
-  --color-background: #121212;
-  --color-surface-1: #1e1e1e;
-  --color-surface-2: #2a2a2a;
-
-  --color-text-primary: #e0e0e0;
-  --color-text-secondary: #a0a0a0;
-  --color-text-disabled: #616161;
-
-  --color-primary: #3e8bff;
-  --color-primary-hover: #69a5ff;
-  --color-border: #424242;
-  --color-border-hover: #757575;
-
-  --color-success: #4caf50;
-  --color-warning: #ffc107;
-  --color-error: #f44336;
+@plugin "daisyui" {
+  themes: light --default;
 }
 
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "IBM Plex Sans", sans-serif;
-}
-
-.bg-base {
-  background-color: var(--color-background);
-}
-
-.surface-1 {
-  background-color: var(--color-surface-1);
-}
-
-.surface-2 {
-  background-color: var(--color-surface-2);
-}
-
-.primary-text {
-  color: var(--color-text-primary);
 }
