@@ -7,13 +7,21 @@ const Home = () => {
     <main className="max-w-7xl mx-auto px-4 py-24 min-h-screen flex flex-col gap-12">
       <section className="space-y-4">
           <h1 className="text-7xl font-bold w-fit">Lance Hemphill</h1>
-          <p className="text-2xl font-light w-fit">Software Engineer</p>
+        <p className="text-2xl font-light w-fit">Software Engineer</p>
       </section>
 
       <section className="space-y-2">
         <h2 className="text-3xl font-bold">About Me</h2>
-        <p className="text-xl font-light">I like software, I write software.</p>
+        <p className="text-xl font-light">I like software and I write software. I create {"(insert corporate buzzwords here)"} full stack applications. I've been into tech for as long as I can remember and started coding back in 2022. Typically I spend my time studying, coding, or reading. I'm always down to talk about tech, music, economics, business etc.  </p>
       </section>
+
+          <section className="space-y-4">
+          <h2 className="text-3xl font-bold">Links</h2>
+            <div className="flex gap-4">
+            <a href="https://www.linkedin.com/in/lancehemphill/" target="_blank" aria-label="My Linkedin" className="py-2 px-4 font-semibold bg-black text-white text-sm cursor-pointer hover:px-6 duration-200">LinkedIn</a>
+            <a href="https://github.com/LanceOS" target="_blank" aria-label="My Github" className="py-2 px-4 font-semibold bg-black text-white text-sm cursor-pointer hover:px-6 duration-200">Github</a>
+            </div>
+          </section>
 
       <section className="space-y-4">
         <h2 className="text-3xl font-bold">Experience</h2>
@@ -74,13 +82,6 @@ const Home = () => {
         </div>
       </section> 
 
-      <section className="space-y-4">
-        <h2 className="text-3xl font-bold">Links</h2>
-        <div className="flex gap-4">
-          <a href="https://www.linkedin.com/in/lancehemphill/" target="_blank" aria-label="My Linkedin" className="py-2 px-4 font-semibold bg-black text-white text-sm cursor-pointer hover:px-6 duration-200">LinkedIn</a>
-          <a href="https://github.com/LanceOS" target="_blank" aria-label="My Github" className="py-2 px-4 font-semibold bg-black text-white text-sm cursor-pointer hover:px-6 duration-200">Github</a>
-        </div>
-      </section>
     </main>
     </div>
   )
